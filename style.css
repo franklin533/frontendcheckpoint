@@ -1,0 +1,27 @@
+body.html{
+  height: 100%;
+  margin: 0;
+}
+.bg{
+    background-image: url(./img/osasconight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover; /*css safari e chrome*/
+  -moz-background-size: cover; /*css firefox*/
+  -ms-background-size: cover; /*css IE não use mer#^@%#*/
+  -o-background-size: cover; /*css Opera*/
+}
+header{
+	background-image: url(./img/head.jpg);
+	background-size: cover;
+    background-position: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+h1 {
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
